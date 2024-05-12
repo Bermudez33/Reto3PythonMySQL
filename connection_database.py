@@ -6,7 +6,7 @@ from datetime import datetime
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="rootPassword123",
+  password="",
   database= "sys",
   port="3307"
 )
